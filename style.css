@@ -1,0 +1,31 @@
+*{ /* asterisk means everything by default is set to this. * means everything*/
+    margin: 0;
+}
+
+.splash { /*selector*/
+    height: 250px;
+    border: 1px ; /*decloration*/
+    background-color: rgb(232, 180, 188);
+} 
+
+.list{
+    background-color: rgb(191, 232, 218);
+}
+.list.form{
+    background-color: rgb(170, 170, 234);
+}
+
+.list li {
+    font-size: 24px;
+}
+
+.box{
+    height: 100px;
+    width: 80%;
+    border: 2px black solid;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/*responsive design*/
